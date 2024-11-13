@@ -2,11 +2,19 @@ lexer grammar LispLexer;
 
 // Define tokens for Lisp language
 
-// Identifiers
-IDENTIFIER : [a-zA-Z_][a-zA-Z0-9_-]*;
-
 // Numbers (integers and floats)
 NUMBER : [0-9]+('.'[0-9]+)?;
+
+// Reserved keywords
+DEFUN : 'defun';
+IF    : 'if';
+COND  : 'cond';
+LET   : 'let';
+QUOTE : 'quote';
+PRINT : 'print';
+
+// Identifiers
+IDENTIFIER : [a-zA-Z_][a-zA-Z0-9_-]*;
 
 // Operators
 PLUS  : '+';
@@ -26,15 +34,9 @@ STRING : '"' (~["\r\n])* '"';
 TRUE  : 'true';
 FALSE : 'false';
 
-// Reserved keywords
-DEFUN : 'defun';
-IF    : 'if';
-COND  : 'cond';
-LET   : 'let';
-QUOTE : 'quote';
-
 // Comments (start with a semicolon and continue to the end of the line)
-COMMENT : ';' .*? '\n' -> skip;
+// COMMENT : ';' .*? '\n' -> skip;
+COMMENT : ';' .*? '\n' ;
 
 // Whitespace (spaces, tabs, newlines)
 WS : [ \t\r\n]+ -> skip;
