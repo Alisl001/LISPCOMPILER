@@ -1,8 +1,10 @@
 (defun square (x)
   (* x x))
 
-(if (square 3)
-  (print "Nine")
-  (print "Not Nine"))
+(quote "hello lisp") ; A valid expression
 
 ; This is a comment
+
+; Test with invalid input
+(emoji 🚀) ; Lexical error here
+(你好) ; Lexical error here

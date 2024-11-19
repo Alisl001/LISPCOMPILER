@@ -28,7 +28,8 @@ LPAREN : '(';
 RPAREN : ')';
 
 // Strings (enclosed in double quotes)
-STRING : '"' (~["\r\n])* '"';
+STRING : '"' (ESC_SEQ | ~["\\\r\n])* '"' ; // Match strings with escape sequences
+fragment ESC_SEQ : '\\' [btnr"'\\] ; // Defines valid escape characters: \b, \t, \n, \r, ", '
 
 // Boolean values
 TRUE  : 'true';
@@ -40,3 +41,6 @@ COMMENT : ';' .*? '\n' ;
 
 // Whitespace (spaces, tabs, newlines)
 WS : [ \t\r\n]+ -> skip;
+
+// Catch all for unrecognized characters
+ERROR : . ;

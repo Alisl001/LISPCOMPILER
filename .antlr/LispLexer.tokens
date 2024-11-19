@@ -18,6 +18,7 @@ TRUE=17
 FALSE=18
 COMMENT=19
 WS=20
+ERROR=21
 'defun'=2
 'if'=3
 'cond'=4
