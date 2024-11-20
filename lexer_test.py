@@ -4,7 +4,7 @@ from antlr4.error.Errors import RecognitionException
 
 def main():
     # Load the Lisp code from a file
-    with open('example.lisp', 'r', encoding='utf-8') as file:
+    with open('testLisp.lisp', 'r', encoding='utf-8') as file:
         input_stream = InputStream(file.read())
 
     # Initialize the lexer
