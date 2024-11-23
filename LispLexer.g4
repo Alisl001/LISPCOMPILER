@@ -17,6 +17,7 @@ LET          : 'let';
 QUOTE        : 'quote';
 PRINT        : 'print';
 DEFPARAMETER : 'defparameter'; 
+FORMAT       : 'format';
 
 // Identifiers (allow *, -, _ in identifiers, but not as standalone tokens)
 IDENTIFIER : [a-zA-Z_][a-zA-Z0-9_*-]*;
