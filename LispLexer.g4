@@ -17,6 +17,7 @@ LET          : 'let';
 QUOTE        : 'quote';
 PRINT        : 'print';
 DEFPARAMETER : 'defparameter'; 
+LAMBDA       : 'lambda';
 FORMAT       : 'format';
 
 // Identifiers (allow *, -, _ in identifiers, but not as standalone tokens)
@@ -28,6 +29,11 @@ MINUS : '-';
 MULT  : '*' -> more; // Handle * in IDENTIFIER if part of it
 DIV   : '/';
 MOD   : '%';
+GREATER_EQUAL: '>=';
+LESS_EQUAL: '<=';
+GREATER: '>';
+LESS: '<';
+EQUAL: '=';
 
 // Parentheses for Lisp expressions
 LPAREN : '(';
