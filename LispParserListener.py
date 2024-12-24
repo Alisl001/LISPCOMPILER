@@ -80,6 +80,15 @@ class LispParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by LispParser#operation.
+    def enterOperation(self, ctx:LispParser.OperationContext):
+        pass
+
+    # Exit a parse tree produced by LispParser#operation.
+    def exitOperation(self, ctx:LispParser.OperationContext):
+        pass
+
+
     # Enter a parse tree produced by LispParser#conditional.
     def enterConditional(self, ctx:LispParser.ConditionalContext):
         pass
@@ -95,15 +104,6 @@ class LispParserListener(ParseTreeListener):
 
     # Exit a parse tree produced by LispParser#formatCall.
     def exitFormatCall(self, ctx:LispParser.FormatCallContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParser#operation.
-    def enterOperation(self, ctx:LispParser.OperationContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#operation.
-    def exitOperation(self, ctx:LispParser.OperationContext):
         pass
 
 

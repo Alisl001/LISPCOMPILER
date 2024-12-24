@@ -10,52 +10,53 @@ else:
 
 def serializedATN():
     return [
-        4,1,32,138,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,32,141,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,1,0,1,0,1,0,5,0,26,8,0,10,0,
         12,0,29,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,
         3,2,44,8,2,1,2,1,2,1,2,1,2,1,2,1,3,1,3,5,3,53,8,3,10,3,12,3,56,9,
         3,1,4,5,4,59,8,4,10,4,12,4,62,9,4,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
         5,3,5,72,8,5,1,6,1,6,1,6,1,6,3,6,78,8,6,1,6,1,6,1,6,1,6,1,7,1,7,
-        1,7,5,7,87,8,7,10,7,12,7,90,9,7,1,7,1,7,1,8,1,8,1,8,1,8,1,8,3,8,
-        99,8,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,4,8,110,8,8,11,8,12,8,
-        111,1,8,1,8,3,8,116,8,8,1,9,1,9,1,9,1,9,5,9,122,8,9,10,9,12,9,125,
-        9,9,1,9,1,9,1,10,1,10,1,10,4,10,132,8,10,11,10,12,10,133,1,10,1,
-        10,1,10,0,0,11,0,2,4,6,8,10,12,14,16,18,20,0,1,2,0,16,24,32,32,146,
-        0,27,1,0,0,0,2,32,1,0,0,0,4,38,1,0,0,0,6,50,1,0,0,0,8,60,1,0,0,0,
-        10,71,1,0,0,0,12,73,1,0,0,0,14,83,1,0,0,0,16,115,1,0,0,0,18,117,
-        1,0,0,0,20,128,1,0,0,0,22,26,3,10,5,0,23,26,3,2,1,0,24,26,3,4,2,
-        0,25,22,1,0,0,0,25,23,1,0,0,0,25,24,1,0,0,0,26,29,1,0,0,0,27,25,
-        1,0,0,0,27,28,1,0,0,0,28,30,1,0,0,0,29,27,1,0,0,0,30,31,5,0,0,1,
-        31,1,1,0,0,0,32,33,5,25,0,0,33,34,5,9,0,0,34,35,5,15,0,0,35,36,3,
-        10,5,0,36,37,5,26,0,0,37,3,1,0,0,0,38,39,5,25,0,0,39,40,5,3,0,0,
-        40,41,5,15,0,0,41,43,5,25,0,0,42,44,3,6,3,0,43,42,1,0,0,0,43,44,
-        1,0,0,0,44,45,1,0,0,0,45,46,5,26,0,0,46,47,5,1,0,0,47,48,3,8,4,0,
-        48,49,5,26,0,0,49,5,1,0,0,0,50,54,5,15,0,0,51,53,5,15,0,0,52,51,
-        1,0,0,0,53,56,1,0,0,0,54,52,1,0,0,0,54,55,1,0,0,0,55,7,1,0,0,0,56,
-        54,1,0,0,0,57,59,3,10,5,0,58,57,1,0,0,0,59,62,1,0,0,0,60,58,1,0,
-        0,0,60,61,1,0,0,0,61,9,1,0,0,0,62,60,1,0,0,0,63,72,5,1,0,0,64,72,
-        5,2,0,0,65,72,5,15,0,0,66,72,3,12,6,0,67,72,3,14,7,0,68,72,3,16,
-        8,0,69,72,3,20,10,0,70,72,3,18,9,0,71,63,1,0,0,0,71,64,1,0,0,0,71,
-        65,1,0,0,0,71,66,1,0,0,0,71,67,1,0,0,0,71,68,1,0,0,0,71,69,1,0,0,
-        0,71,70,1,0,0,0,72,11,1,0,0,0,73,74,5,25,0,0,74,75,5,10,0,0,75,77,
-        5,25,0,0,76,78,3,6,3,0,77,76,1,0,0,0,77,78,1,0,0,0,78,79,1,0,0,0,
-        79,80,5,26,0,0,80,81,3,10,5,0,81,82,5,26,0,0,82,13,1,0,0,0,83,84,
-        5,25,0,0,84,88,5,15,0,0,85,87,3,10,5,0,86,85,1,0,0,0,87,90,1,0,0,
-        0,88,86,1,0,0,0,88,89,1,0,0,0,89,91,1,0,0,0,90,88,1,0,0,0,91,92,
-        5,26,0,0,92,15,1,0,0,0,93,94,5,25,0,0,94,95,5,4,0,0,95,96,3,10,5,
-        0,96,98,3,10,5,0,97,99,3,10,5,0,98,97,1,0,0,0,98,99,1,0,0,0,99,100,
-        1,0,0,0,100,101,5,26,0,0,101,116,1,0,0,0,102,103,5,25,0,0,103,109,
-        5,5,0,0,104,105,5,25,0,0,105,106,3,10,5,0,106,107,3,10,5,0,107,108,
-        5,26,0,0,108,110,1,0,0,0,109,104,1,0,0,0,110,111,1,0,0,0,111,109,
-        1,0,0,0,111,112,1,0,0,0,112,113,1,0,0,0,113,114,5,26,0,0,114,116,
-        1,0,0,0,115,93,1,0,0,0,115,102,1,0,0,0,116,17,1,0,0,0,117,118,5,
-        25,0,0,118,119,5,11,0,0,119,123,3,10,5,0,120,122,3,10,5,0,121,120,
-        1,0,0,0,122,125,1,0,0,0,123,121,1,0,0,0,123,124,1,0,0,0,124,126,
-        1,0,0,0,125,123,1,0,0,0,126,127,5,26,0,0,127,19,1,0,0,0,128,129,
-        5,25,0,0,129,131,7,0,0,0,130,132,3,10,5,0,131,130,1,0,0,0,132,133,
-        1,0,0,0,133,131,1,0,0,0,133,134,1,0,0,0,134,135,1,0,0,0,135,136,
-        5,26,0,0,136,21,1,0,0,0,13,25,27,43,54,60,71,77,88,98,111,115,123,
-        133
+        1,7,5,7,87,8,7,10,7,12,7,90,9,7,1,7,1,7,1,8,1,8,1,8,4,8,97,8,8,11,
+        8,12,8,98,1,8,1,8,1,9,1,9,1,9,1,9,1,9,5,9,108,8,9,10,9,12,9,111,
+        9,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,4,9,122,8,9,11,9,12,9,123,
+        1,9,1,9,3,9,128,8,9,1,10,1,10,1,10,1,10,5,10,134,8,10,10,10,12,10,
+        137,9,10,1,10,1,10,1,10,0,0,11,0,2,4,6,8,10,12,14,16,18,20,0,1,3,
+        0,12,13,16,24,32,32,149,0,27,1,0,0,0,2,32,1,0,0,0,4,38,1,0,0,0,6,
+        50,1,0,0,0,8,60,1,0,0,0,10,71,1,0,0,0,12,73,1,0,0,0,14,83,1,0,0,
+        0,16,93,1,0,0,0,18,127,1,0,0,0,20,129,1,0,0,0,22,26,3,10,5,0,23,
+        26,3,2,1,0,24,26,3,4,2,0,25,22,1,0,0,0,25,23,1,0,0,0,25,24,1,0,0,
+        0,26,29,1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,30,1,0,0,0,29,27,
+        1,0,0,0,30,31,5,0,0,1,31,1,1,0,0,0,32,33,5,25,0,0,33,34,5,9,0,0,
+        34,35,5,15,0,0,35,36,3,10,5,0,36,37,5,26,0,0,37,3,1,0,0,0,38,39,
+        5,25,0,0,39,40,5,3,0,0,40,41,5,15,0,0,41,43,5,25,0,0,42,44,3,6,3,
+        0,43,42,1,0,0,0,43,44,1,0,0,0,44,45,1,0,0,0,45,46,5,26,0,0,46,47,
+        5,1,0,0,47,48,3,8,4,0,48,49,5,26,0,0,49,5,1,0,0,0,50,54,5,15,0,0,
+        51,53,5,15,0,0,52,51,1,0,0,0,53,56,1,0,0,0,54,52,1,0,0,0,54,55,1,
+        0,0,0,55,7,1,0,0,0,56,54,1,0,0,0,57,59,3,10,5,0,58,57,1,0,0,0,59,
+        62,1,0,0,0,60,58,1,0,0,0,60,61,1,0,0,0,61,9,1,0,0,0,62,60,1,0,0,
+        0,63,72,5,1,0,0,64,72,5,2,0,0,65,72,5,15,0,0,66,72,3,12,6,0,67,72,
+        3,14,7,0,68,72,3,18,9,0,69,72,3,16,8,0,70,72,3,20,10,0,71,63,1,0,
+        0,0,71,64,1,0,0,0,71,65,1,0,0,0,71,66,1,0,0,0,71,67,1,0,0,0,71,68,
+        1,0,0,0,71,69,1,0,0,0,71,70,1,0,0,0,72,11,1,0,0,0,73,74,5,25,0,0,
+        74,75,5,10,0,0,75,77,5,25,0,0,76,78,3,6,3,0,77,76,1,0,0,0,77,78,
+        1,0,0,0,78,79,1,0,0,0,79,80,5,26,0,0,80,81,3,10,5,0,81,82,5,26,0,
+        0,82,13,1,0,0,0,83,84,5,25,0,0,84,88,5,15,0,0,85,87,3,10,5,0,86,
+        85,1,0,0,0,87,90,1,0,0,0,88,86,1,0,0,0,88,89,1,0,0,0,89,91,1,0,0,
+        0,90,88,1,0,0,0,91,92,5,26,0,0,92,15,1,0,0,0,93,94,5,25,0,0,94,96,
+        7,0,0,0,95,97,3,10,5,0,96,95,1,0,0,0,97,98,1,0,0,0,98,96,1,0,0,0,
+        98,99,1,0,0,0,99,100,1,0,0,0,100,101,5,26,0,0,101,17,1,0,0,0,102,
+        103,5,25,0,0,103,104,5,4,0,0,104,105,3,10,5,0,105,109,3,10,5,0,106,
+        108,3,10,5,0,107,106,1,0,0,0,108,111,1,0,0,0,109,107,1,0,0,0,109,
+        110,1,0,0,0,110,112,1,0,0,0,111,109,1,0,0,0,112,113,5,26,0,0,113,
+        128,1,0,0,0,114,115,5,25,0,0,115,121,5,5,0,0,116,117,5,25,0,0,117,
+        118,3,10,5,0,118,119,3,10,5,0,119,120,5,26,0,0,120,122,1,0,0,0,121,
+        116,1,0,0,0,122,123,1,0,0,0,123,121,1,0,0,0,123,124,1,0,0,0,124,
+        125,1,0,0,0,125,126,5,26,0,0,126,128,1,0,0,0,127,102,1,0,0,0,127,
+        114,1,0,0,0,128,19,1,0,0,0,129,130,5,25,0,0,130,131,5,11,0,0,131,
+        135,3,10,5,0,132,134,3,10,5,0,133,132,1,0,0,0,134,137,1,0,0,0,135,
+        133,1,0,0,0,135,136,1,0,0,0,136,138,1,0,0,0,137,135,1,0,0,0,138,
+        139,5,26,0,0,139,21,1,0,0,0,13,25,27,43,54,60,71,77,88,98,109,123,
+        127,135
     ]
 
 class LispParser ( Parser ):
@@ -90,13 +91,13 @@ class LispParser ( Parser ):
     RULE_expression = 5
     RULE_lambda = 6
     RULE_funcall = 7
-    RULE_conditional = 8
-    RULE_formatCall = 9
-    RULE_operation = 10
+    RULE_operation = 8
+    RULE_conditional = 9
+    RULE_formatCall = 10
 
     ruleNames =  [ "program", "defparameter", "defun", "params", "body", 
-                   "expression", "lambda", "funcall", "conditional", "formatCall", 
-                   "operation" ]
+                   "expression", "lambda", "funcall", "operation", "conditional", 
+                   "formatCall" ]
 
     EOF = Token.EOF
     STRING=1
@@ -757,6 +758,115 @@ class LispParser ( Parser ):
         return localctx
 
 
+    class OperationContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+
+        def LPAREN(self):
+            return self.getToken(LispParser.LPAREN, 0)
+
+        def RPAREN(self):
+            return self.getToken(LispParser.RPAREN, 0)
+
+        def PLUS(self):
+            return self.getToken(LispParser.PLUS, 0)
+
+        def MINUS(self):
+            return self.getToken(LispParser.MINUS, 0)
+
+        def MULT(self):
+            return self.getToken(LispParser.MULT, 0)
+
+        def DIV(self):
+            return self.getToken(LispParser.DIV, 0)
+
+        def MOD(self):
+            return self.getToken(LispParser.MOD, 0)
+
+        def GREATER_EQUAL(self):
+            return self.getToken(LispParser.GREATER_EQUAL, 0)
+
+        def LESS_EQUAL(self):
+            return self.getToken(LispParser.LESS_EQUAL, 0)
+
+        def GREATER(self):
+            return self.getToken(LispParser.GREATER, 0)
+
+        def LESS(self):
+            return self.getToken(LispParser.LESS, 0)
+
+        def EQUAL(self):
+            return self.getToken(LispParser.EQUAL, 0)
+
+        def AND(self):
+            return self.getToken(LispParser.AND, 0)
+
+        def OR(self):
+            return self.getToken(LispParser.OR, 0)
+
+        def expression(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(LispParser.ExpressionContext)
+            else:
+                return self.getTypedRuleContext(LispParser.ExpressionContext,i)
+
+
+        def getRuleIndex(self):
+            return LispParser.RULE_operation
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterOperation" ):
+                listener.enterOperation(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitOperation" ):
+                listener.exitOperation(self)
+
+
+
+
+    def operation(self):
+
+        localctx = LispParser.OperationContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_operation)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 93
+            self.match(LispParser.LPAREN)
+            self.state = 94
+            _la = self._input.LA(1)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4328468480) != 0)):
+                self._errHandler.recoverInline(self)
+            else:
+                self._errHandler.reportMatch(self)
+                self.consume()
+            self.state = 96 
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while True:
+                self.state = 95
+                self.expression()
+                self.state = 98 
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0)):
+                    break
+
+            self.state = 100
+            self.match(LispParser.RPAREN)
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
     class ConditionalContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -806,59 +916,61 @@ class LispParser ( Parser ):
     def conditional(self):
 
         localctx = LispParser.ConditionalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_conditional)
+        self.enterRule(localctx, 18, self.RULE_conditional)
         self._la = 0 # Token type
         try:
-            self.state = 115
+            self.state = 127
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 93
+                self.state = 102
                 self.match(LispParser.LPAREN)
-                self.state = 94
+                self.state = 103
                 self.match(LispParser.IF)
-                self.state = 95
+                self.state = 104
                 self.expression()
-                self.state = 96
+                self.state = 105
                 self.expression()
-                self.state = 98
+                self.state = 109
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                    self.state = 97
+                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
+                    self.state = 106
                     self.expression()
+                    self.state = 111
+                    self._errHandler.sync(self)
+                    _la = self._input.LA(1)
 
-
-                self.state = 100
+                self.state = 112
                 self.match(LispParser.RPAREN)
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 102
+                self.state = 114
                 self.match(LispParser.LPAREN)
-                self.state = 103
+                self.state = 115
                 self.match(LispParser.COND)
-                self.state = 109 
+                self.state = 121 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while True:
-                    self.state = 104
+                    self.state = 116
                     self.match(LispParser.LPAREN)
-                    self.state = 105
+                    self.state = 117
                     self.expression()
-                    self.state = 106
+                    self.state = 118
                     self.expression()
-                    self.state = 107
+                    self.state = 119
                     self.match(LispParser.RPAREN)
-                    self.state = 111 
+                    self.state = 123 
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     if not (_la==25):
                         break
 
-                self.state = 113
+                self.state = 125
                 self.match(LispParser.RPAREN)
                 pass
 
@@ -912,130 +1024,27 @@ class LispParser ( Parser ):
     def formatCall(self):
 
         localctx = LispParser.FormatCallContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_formatCall)
+        self.enterRule(localctx, 20, self.RULE_formatCall)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 117
+            self.state = 129
             self.match(LispParser.LPAREN)
-            self.state = 118
+            self.state = 130
             self.match(LispParser.FORMAT)
-            self.state = 119
+            self.state = 131
             self.expression()
-            self.state = 123
+            self.state = 135
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                self.state = 120
+                self.state = 132
                 self.expression()
-                self.state = 125
+                self.state = 137
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 126
-            self.match(LispParser.RPAREN)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class OperationContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def LPAREN(self):
-            return self.getToken(LispParser.LPAREN, 0)
-
-        def RPAREN(self):
-            return self.getToken(LispParser.RPAREN, 0)
-
-        def PLUS(self):
-            return self.getToken(LispParser.PLUS, 0)
-
-        def MINUS(self):
-            return self.getToken(LispParser.MINUS, 0)
-
-        def MULT(self):
-            return self.getToken(LispParser.MULT, 0)
-
-        def DIV(self):
-            return self.getToken(LispParser.DIV, 0)
-
-        def MOD(self):
-            return self.getToken(LispParser.MOD, 0)
-
-        def GREATER_EQUAL(self):
-            return self.getToken(LispParser.GREATER_EQUAL, 0)
-
-        def LESS_EQUAL(self):
-            return self.getToken(LispParser.LESS_EQUAL, 0)
-
-        def GREATER(self):
-            return self.getToken(LispParser.GREATER, 0)
-
-        def LESS(self):
-            return self.getToken(LispParser.LESS, 0)
-
-        def EQUAL(self):
-            return self.getToken(LispParser.EQUAL, 0)
-
-        def expression(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(LispParser.ExpressionContext)
-            else:
-                return self.getTypedRuleContext(LispParser.ExpressionContext,i)
-
-
-        def getRuleIndex(self):
-            return LispParser.RULE_operation
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterOperation" ):
-                listener.enterOperation(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitOperation" ):
-                listener.exitOperation(self)
-
-
-
-
-    def operation(self):
-
-        localctx = LispParser.OperationContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_operation)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 128
-            self.match(LispParser.LPAREN)
-            self.state = 129
-            _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4328456192) != 0)):
-                self._errHandler.recoverInline(self)
-            else:
-                self._errHandler.reportMatch(self)
-                self.consume()
-            self.state = 131 
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while True:
-                self.state = 130
-                self.expression()
-                self.state = 133 
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0)):
-                    break
-
-            self.state = 135
+            self.state = 138
             self.match(LispParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re

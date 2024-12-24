@@ -37,16 +37,16 @@ lambda: LPAREN LAMBDA LPAREN params? RPAREN expression RPAREN;
 // Function calls (generic)
 funcall: LPAREN IDENTIFIER (expression)* RPAREN;
 
+// Arithmetic and logical operations
+operation
+    : LPAREN (PLUS | MINUS | MULT | DIV | MOD | GREATER_EQUAL | LESS_EQUAL | GREATER | LESS | EQUAL | AND | OR) (expression)+ RPAREN
+    ;
+
 // Conditional expressions (if and cond)
 conditional
-    : LPAREN IF expression expression expression? RPAREN
+    : LPAREN IF expression expression (expression)* RPAREN 
     | LPAREN COND (LPAREN expression expression RPAREN)+ RPAREN
     ;
 
 // Format function call (specific)
 formatCall: LPAREN FORMAT expression (expression)* RPAREN;
-
-// Arithmetic and logical operations
-operation
-    : LPAREN (PLUS | MINUS | MULT | DIV | MOD | GREATER_EQUAL | LESS_EQUAL | GREATER | LESS | EQUAL) (expression)+ RPAREN
-    ;
