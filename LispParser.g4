@@ -28,6 +28,7 @@ expression
     | funcall
     | conditional
     | operation
+    | formatCall
     ;
 
 // Lambda expressions
@@ -41,6 +42,9 @@ conditional
     : LPAREN IF expression expression expression? RPAREN
     | LPAREN COND (LPAREN expression expression RPAREN)+ RPAREN
     ;
+
+// Format function call (specific)
+formatCall: LPAREN FORMAT expression (expression)* RPAREN;
 
 // Arithmetic and logical operations
 operation
