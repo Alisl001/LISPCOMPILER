@@ -1,127 +1,48 @@
-grammar LispParser;
+parser grammar LispParser;
 
-// Parser rules
+options {
+  tokenVocab = LispLexer;
+}
 
-program
-    : expression* EOF
-    ;
+// The root rule for a Lisp program
+program: (expression | defparameter | defun)* EOF;
 
+// Define a parameter declaration
+defparameter: LPAREN DEFPARAMETER IDENTIFIER expression RPAREN;
+
+// Define a function declaration
+defun: LPAREN DEFUN IDENTIFIER LPAREN params? RPAREN STRING body RPAREN;
+
+// Define function parameters
+params: IDENTIFIER (IDENTIFIER)*;
+
+// Define a function body (multiple expressions)
+body: (expression)*;
+
+// Expressions in Lisp
 expression
-    : functionCall
-    | variableDefinition
-    | functionDefinition
-    | conditional
-    | letExpression
-    | quoteExpression
-    | lambdaExpression
-    | printExpression
-    | atom
-    | binaryExpression
-    | '(' expression ')'
-    ;
-
-atom
-    : NUMBER
-    | STRING
-    | TRUE
-    | FALSE
+    : STRING
+    | NUMBER
     | IDENTIFIER
+    | lambda
+    | funcall
+    | conditional
+    | operation
     ;
 
-functionCall
-    : IDENTIFIER LPAREN argumentList? RPAREN
-    | FORMAT LPAREN formatArguments RPAREN
-    ;
+// Lambda expressions
+lambda: LPAREN LAMBDA LPAREN params? RPAREN expression RPAREN;
 
-formatArguments
-    : expression (',' expression)*
-    ;
+// Function calls (generic)
+funcall: LPAREN IDENTIFIER (expression)* RPAREN;
 
-argumentList
-    : expression (',' expression)*
-    ;
-
-variableDefinition
-    : DEFparameter IDENTIFIER expression
-    ;
-
-functionDefinition
-    : DEFUN IDENTIFIER parameterList expression
-    ;
-
-parameterList
-    : IDENTIFIER (',' IDENTIFIER)*
-    ;
-
+// Conditional expressions (if and cond)
 conditional
-    : IF expression expression expression
+    : LPAREN IF expression expression expression? RPAREN
+    | LPAREN COND (LPAREN expression expression RPAREN)+ RPAREN
     ;
 
-letExpression
-    : LET LPAREN (variableDefinition)* RPAREN expression
+// Arithmetic and logical operations
+operation
+    : LPAREN (PLUS | MINUS | MULT | DIV | MOD | GREATER_EQUAL | LESS_EQUAL | GREATER | LESS | EQUAL) (expression)+ RPAREN
     ;
-
-quoteExpression
-    : QUOTE expression
-    ;
-
-lambdaExpression
-    : LAMBDA LPAREN parameterList? RPAREN expression
-    ;
-
-printExpression
-    : PRINT LPAREN expression RPAREN
-    ;
-
-binaryExpression
-    : atom binaryTail
-    ;
-
-binaryTail
-    : ( (MULT | DIV) atom
-      | (PLUS | MINUS) atom
-      | (GREATER_EQUAL | LESS_EQUAL | GREATER | LESS | EQUAL) atom
-    ) binaryTail?
-    ;
-
-// Lexer rules
-
-DEFUN        : 'defun';
-DEFparameter : 'defparameter';
-IF           : 'if';
-CONDITION    : 'cond';
-LET          : 'let';
-QUOTE        : 'quote';
-PRINT        : 'print';
-LAMBDA       : 'lambda';
-FORMAT       : 'format';
-
-NUMBER : [0-9]+('.'[0-9]+)?;
-
-STRING : '"' (ESC_SEQ | ~["\\])* '"';
-fragment ESC_SEQ : '\\' [btnr"'\\];
-
-IDENTIFIER : [a-zA-Z_][a-zA-Z0-9_*-]*;
-
-PLUS  : '+';
-MINUS : '-';
-MULT  : '*';
-DIV   : '/';
-MOD   : '%';
-GREATER_EQUAL: '>='; 
-LESS_EQUAL: '<='; 
-GREATER: '>'; 
-LESS: '<'; 
-EQUAL: '=';
-
-LPAREN : '(';
-RPAREN : ')';
-
-TRUE  : 'true';
-FALSE : 'false';
-
-COMMENT : ';;' ~[\n]* -> skip;
-
-WS : [ \t\r\n]+ -> skip;
-
-ERROR : . { System.err.println("Invalid character: " + _input.getText(_start, _input.index())); } ;

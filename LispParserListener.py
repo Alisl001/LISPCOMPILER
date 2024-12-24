@@ -1,156 +1,102 @@
 # Generated from LispParser.g4 by ANTLR 4.13.2
 from antlr4 import *
 if "." in __name__:
-    from .LispParserParser import LispParserParser
+    from .LispParser import LispParser
 else:
-    from LispParserParser import LispParserParser
+    from LispParser import LispParser
 
-# This class defines a complete listener for a parse tree produced by LispParserParser.
+# This class defines a complete listener for a parse tree produced by LispParser.
 class LispParserListener(ParseTreeListener):
 
-    # Enter a parse tree produced by LispParserParser#program.
-    def enterProgram(self, ctx:LispParserParser.ProgramContext):
+    # Enter a parse tree produced by LispParser#program.
+    def enterProgram(self, ctx:LispParser.ProgramContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#program.
-    def exitProgram(self, ctx:LispParserParser.ProgramContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#expression.
-    def enterExpression(self, ctx:LispParserParser.ExpressionContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#expression.
-    def exitExpression(self, ctx:LispParserParser.ExpressionContext):
+    # Exit a parse tree produced by LispParser#program.
+    def exitProgram(self, ctx:LispParser.ProgramContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#atom.
-    def enterAtom(self, ctx:LispParserParser.AtomContext):
+    # Enter a parse tree produced by LispParser#defparameter.
+    def enterDefparameter(self, ctx:LispParser.DefparameterContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#atom.
-    def exitAtom(self, ctx:LispParserParser.AtomContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#functionCall.
-    def enterFunctionCall(self, ctx:LispParserParser.FunctionCallContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#functionCall.
-    def exitFunctionCall(self, ctx:LispParserParser.FunctionCallContext):
+    # Exit a parse tree produced by LispParser#defparameter.
+    def exitDefparameter(self, ctx:LispParser.DefparameterContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#formatArguments.
-    def enterFormatArguments(self, ctx:LispParserParser.FormatArgumentsContext):
+    # Enter a parse tree produced by LispParser#defun.
+    def enterDefun(self, ctx:LispParser.DefunContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#formatArguments.
-    def exitFormatArguments(self, ctx:LispParserParser.FormatArgumentsContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#argumentList.
-    def enterArgumentList(self, ctx:LispParserParser.ArgumentListContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#argumentList.
-    def exitArgumentList(self, ctx:LispParserParser.ArgumentListContext):
+    # Exit a parse tree produced by LispParser#defun.
+    def exitDefun(self, ctx:LispParser.DefunContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#variableDefinition.
-    def enterVariableDefinition(self, ctx:LispParserParser.VariableDefinitionContext):
+    # Enter a parse tree produced by LispParser#params.
+    def enterParams(self, ctx:LispParser.ParamsContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#variableDefinition.
-    def exitVariableDefinition(self, ctx:LispParserParser.VariableDefinitionContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#functionDefinition.
-    def enterFunctionDefinition(self, ctx:LispParserParser.FunctionDefinitionContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#functionDefinition.
-    def exitFunctionDefinition(self, ctx:LispParserParser.FunctionDefinitionContext):
+    # Exit a parse tree produced by LispParser#params.
+    def exitParams(self, ctx:LispParser.ParamsContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#parameterList.
-    def enterParameterList(self, ctx:LispParserParser.ParameterListContext):
+    # Enter a parse tree produced by LispParser#body.
+    def enterBody(self, ctx:LispParser.BodyContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#parameterList.
-    def exitParameterList(self, ctx:LispParserParser.ParameterListContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#conditional.
-    def enterConditional(self, ctx:LispParserParser.ConditionalContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#conditional.
-    def exitConditional(self, ctx:LispParserParser.ConditionalContext):
+    # Exit a parse tree produced by LispParser#body.
+    def exitBody(self, ctx:LispParser.BodyContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#letExpression.
-    def enterLetExpression(self, ctx:LispParserParser.LetExpressionContext):
+    # Enter a parse tree produced by LispParser#expression.
+    def enterExpression(self, ctx:LispParser.ExpressionContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#letExpression.
-    def exitLetExpression(self, ctx:LispParserParser.LetExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#quoteExpression.
-    def enterQuoteExpression(self, ctx:LispParserParser.QuoteExpressionContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#quoteExpression.
-    def exitQuoteExpression(self, ctx:LispParserParser.QuoteExpressionContext):
+    # Exit a parse tree produced by LispParser#expression.
+    def exitExpression(self, ctx:LispParser.ExpressionContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#lambdaExpression.
-    def enterLambdaExpression(self, ctx:LispParserParser.LambdaExpressionContext):
+    # Enter a parse tree produced by LispParser#lambda.
+    def enterLambda(self, ctx:LispParser.LambdaContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#lambdaExpression.
-    def exitLambdaExpression(self, ctx:LispParserParser.LambdaExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParserParser#printExpression.
-    def enterPrintExpression(self, ctx:LispParserParser.PrintExpressionContext):
-        pass
-
-    # Exit a parse tree produced by LispParserParser#printExpression.
-    def exitPrintExpression(self, ctx:LispParserParser.PrintExpressionContext):
+    # Exit a parse tree produced by LispParser#lambda.
+    def exitLambda(self, ctx:LispParser.LambdaContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#binaryExpression.
-    def enterBinaryExpression(self, ctx:LispParserParser.BinaryExpressionContext):
+    # Enter a parse tree produced by LispParser#funcall.
+    def enterFuncall(self, ctx:LispParser.FuncallContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#binaryExpression.
-    def exitBinaryExpression(self, ctx:LispParserParser.BinaryExpressionContext):
+    # Exit a parse tree produced by LispParser#funcall.
+    def exitFuncall(self, ctx:LispParser.FuncallContext):
         pass
 
 
-    # Enter a parse tree produced by LispParserParser#binaryTail.
-    def enterBinaryTail(self, ctx:LispParserParser.BinaryTailContext):
+    # Enter a parse tree produced by LispParser#conditional.
+    def enterConditional(self, ctx:LispParser.ConditionalContext):
         pass
 
-    # Exit a parse tree produced by LispParserParser#binaryTail.
-    def exitBinaryTail(self, ctx:LispParserParser.BinaryTailContext):
+    # Exit a parse tree produced by LispParser#conditional.
+    def exitConditional(self, ctx:LispParser.ConditionalContext):
+        pass
+
+
+    # Enter a parse tree produced by LispParser#operation.
+    def enterOperation(self, ctx:LispParser.OperationContext):
+        pass
+
+    # Exit a parse tree produced by LispParser#operation.
+    def exitOperation(self, ctx:LispParser.OperationContext):
         pass
 
 
 
-del LispParserParser
+del LispParser
