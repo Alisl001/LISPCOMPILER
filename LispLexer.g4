@@ -1,3 +1,4 @@
+// LispLexer.g4
 lexer grammar LispLexer;
 
 // Define tokens for Lisp language
@@ -20,8 +21,9 @@ DEFPARAMETER : 'defparameter';
 LAMBDA       : 'lambda';
 FORMAT       : 'format';
 AND          : 'and';
-OR          : 'or';
+OR           : 'or';
 NOT          : 'not';
+ELSE         : 'else';
 
 // Identifiers (allow *, -, _ in identifiers, but not as standalone tokens)
 IDENTIFIER : [a-zA-Z_][a-zA-Z0-9_*-]*;

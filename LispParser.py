@@ -10,53 +10,47 @@ else:
 
 def serializedATN():
     return [
-        4,1,32,141,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
-        6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,1,0,1,0,1,0,5,0,26,8,0,10,0,
-        12,0,29,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,1,2,1,2,
-        3,2,44,8,2,1,2,1,2,1,2,1,2,1,2,1,3,1,3,5,3,53,8,3,10,3,12,3,56,9,
-        3,1,4,5,4,59,8,4,10,4,12,4,62,9,4,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
-        5,3,5,72,8,5,1,6,1,6,1,6,1,6,3,6,78,8,6,1,6,1,6,1,6,1,6,1,7,1,7,
-        1,7,5,7,87,8,7,10,7,12,7,90,9,7,1,7,1,7,1,8,1,8,1,8,4,8,97,8,8,11,
-        8,12,8,98,1,8,1,8,1,9,1,9,1,9,1,9,1,9,5,9,108,8,9,10,9,12,9,111,
-        9,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,1,9,4,9,122,8,9,11,9,12,9,123,
-        1,9,1,9,3,9,128,8,9,1,10,1,10,1,10,1,10,5,10,134,8,10,10,10,12,10,
-        137,9,10,1,10,1,10,1,10,0,0,11,0,2,4,6,8,10,12,14,16,18,20,0,1,3,
-        0,12,13,16,24,32,32,149,0,27,1,0,0,0,2,32,1,0,0,0,4,38,1,0,0,0,6,
-        50,1,0,0,0,8,60,1,0,0,0,10,71,1,0,0,0,12,73,1,0,0,0,14,83,1,0,0,
-        0,16,93,1,0,0,0,18,127,1,0,0,0,20,129,1,0,0,0,22,26,3,10,5,0,23,
-        26,3,2,1,0,24,26,3,4,2,0,25,22,1,0,0,0,25,23,1,0,0,0,25,24,1,0,0,
-        0,26,29,1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,30,1,0,0,0,29,27,
-        1,0,0,0,30,31,5,0,0,1,31,1,1,0,0,0,32,33,5,25,0,0,33,34,5,9,0,0,
-        34,35,5,15,0,0,35,36,3,10,5,0,36,37,5,26,0,0,37,3,1,0,0,0,38,39,
-        5,25,0,0,39,40,5,3,0,0,40,41,5,15,0,0,41,43,5,25,0,0,42,44,3,6,3,
-        0,43,42,1,0,0,0,43,44,1,0,0,0,44,45,1,0,0,0,45,46,5,26,0,0,46,47,
-        5,1,0,0,47,48,3,8,4,0,48,49,5,26,0,0,49,5,1,0,0,0,50,54,5,15,0,0,
-        51,53,5,15,0,0,52,51,1,0,0,0,53,56,1,0,0,0,54,52,1,0,0,0,54,55,1,
-        0,0,0,55,7,1,0,0,0,56,54,1,0,0,0,57,59,3,10,5,0,58,57,1,0,0,0,59,
-        62,1,0,0,0,60,58,1,0,0,0,60,61,1,0,0,0,61,9,1,0,0,0,62,60,1,0,0,
-        0,63,72,5,1,0,0,64,72,5,2,0,0,65,72,5,15,0,0,66,72,3,12,6,0,67,72,
-        3,14,7,0,68,72,3,18,9,0,69,72,3,16,8,0,70,72,3,20,10,0,71,63,1,0,
-        0,0,71,64,1,0,0,0,71,65,1,0,0,0,71,66,1,0,0,0,71,67,1,0,0,0,71,68,
-        1,0,0,0,71,69,1,0,0,0,71,70,1,0,0,0,72,11,1,0,0,0,73,74,5,25,0,0,
-        74,75,5,10,0,0,75,77,5,25,0,0,76,78,3,6,3,0,77,76,1,0,0,0,77,78,
-        1,0,0,0,78,79,1,0,0,0,79,80,5,26,0,0,80,81,3,10,5,0,81,82,5,26,0,
-        0,82,13,1,0,0,0,83,84,5,25,0,0,84,88,5,15,0,0,85,87,3,10,5,0,86,
-        85,1,0,0,0,87,90,1,0,0,0,88,86,1,0,0,0,88,89,1,0,0,0,89,91,1,0,0,
-        0,90,88,1,0,0,0,91,92,5,26,0,0,92,15,1,0,0,0,93,94,5,25,0,0,94,96,
-        7,0,0,0,95,97,3,10,5,0,96,95,1,0,0,0,97,98,1,0,0,0,98,96,1,0,0,0,
-        98,99,1,0,0,0,99,100,1,0,0,0,100,101,5,26,0,0,101,17,1,0,0,0,102,
-        103,5,25,0,0,103,104,5,4,0,0,104,105,3,10,5,0,105,109,3,10,5,0,106,
-        108,3,10,5,0,107,106,1,0,0,0,108,111,1,0,0,0,109,107,1,0,0,0,109,
-        110,1,0,0,0,110,112,1,0,0,0,111,109,1,0,0,0,112,113,5,26,0,0,113,
-        128,1,0,0,0,114,115,5,25,0,0,115,121,5,5,0,0,116,117,5,25,0,0,117,
-        118,3,10,5,0,118,119,3,10,5,0,119,120,5,26,0,0,120,122,1,0,0,0,121,
-        116,1,0,0,0,122,123,1,0,0,0,123,121,1,0,0,0,123,124,1,0,0,0,124,
-        125,1,0,0,0,125,126,5,26,0,0,126,128,1,0,0,0,127,102,1,0,0,0,127,
-        114,1,0,0,0,128,19,1,0,0,0,129,130,5,25,0,0,130,131,5,11,0,0,131,
-        135,3,10,5,0,132,134,3,10,5,0,133,132,1,0,0,0,134,137,1,0,0,0,135,
-        133,1,0,0,0,135,136,1,0,0,0,136,138,1,0,0,0,137,135,1,0,0,0,138,
-        139,5,26,0,0,139,21,1,0,0,0,13,25,27,43,54,60,71,77,88,98,109,123,
-        127,135
+        4,1,33,129,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        6,2,7,7,7,2,8,7,8,1,0,5,0,20,8,0,10,0,12,0,23,9,0,1,0,1,0,1,0,1,
+        1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+        1,1,1,1,1,1,1,1,1,3,1,49,8,1,1,2,1,2,1,2,5,2,54,8,2,10,2,12,2,57,
+        9,2,1,2,1,2,1,2,1,3,1,3,1,3,4,3,65,8,3,11,3,12,3,66,1,3,1,3,1,3,
+        1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,5,1,5,1,5,1,5,1,5,3,5,86,8,
+        5,1,5,1,5,1,5,1,5,1,5,1,5,4,5,94,8,5,11,5,12,5,95,1,5,1,5,1,5,3,
+        5,101,8,5,1,6,1,6,1,6,1,6,1,6,1,6,1,7,1,7,1,7,1,7,5,7,113,8,7,10,
+        7,12,7,116,9,7,1,7,1,7,1,7,1,8,5,8,122,8,8,10,8,12,8,125,9,8,1,8,
+        1,8,1,8,0,0,9,0,2,4,6,8,10,12,14,16,0,1,3,0,12,13,17,25,33,33,134,
+        0,21,1,0,0,0,2,48,1,0,0,0,4,50,1,0,0,0,6,61,1,0,0,0,8,71,1,0,0,0,
+        10,100,1,0,0,0,12,102,1,0,0,0,14,108,1,0,0,0,16,123,1,0,0,0,18,20,
+        3,2,1,0,19,18,1,0,0,0,20,23,1,0,0,0,21,19,1,0,0,0,21,22,1,0,0,0,
+        22,24,1,0,0,0,23,21,1,0,0,0,24,25,5,0,0,1,25,26,6,0,-1,0,26,1,1,
+        0,0,0,27,28,5,1,0,0,28,49,6,1,-1,0,29,30,5,2,0,0,30,49,6,1,-1,0,
+        31,32,5,16,0,0,32,49,6,1,-1,0,33,34,3,8,4,0,34,35,6,1,-1,0,35,49,
+        1,0,0,0,36,37,3,4,2,0,37,38,6,1,-1,0,38,49,1,0,0,0,39,40,3,10,5,
+        0,40,41,6,1,-1,0,41,49,1,0,0,0,42,43,3,6,3,0,43,44,6,1,-1,0,44,49,
+        1,0,0,0,45,46,3,14,7,0,46,47,6,1,-1,0,47,49,1,0,0,0,48,27,1,0,0,
+        0,48,29,1,0,0,0,48,31,1,0,0,0,48,33,1,0,0,0,48,36,1,0,0,0,48,39,
+        1,0,0,0,48,42,1,0,0,0,48,45,1,0,0,0,49,3,1,0,0,0,50,51,5,26,0,0,
+        51,55,5,16,0,0,52,54,3,2,1,0,53,52,1,0,0,0,54,57,1,0,0,0,55,53,1,
+        0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,55,1,0,0,0,58,59,5,27,0,0,59,
+        60,6,2,-1,0,60,5,1,0,0,0,61,62,5,26,0,0,62,64,7,0,0,0,63,65,3,2,
+        1,0,64,63,1,0,0,0,65,66,1,0,0,0,66,64,1,0,0,0,66,67,1,0,0,0,67,68,
+        1,0,0,0,68,69,5,27,0,0,69,70,6,3,-1,0,70,7,1,0,0,0,71,72,5,26,0,
+        0,72,73,5,10,0,0,73,74,5,26,0,0,74,75,3,16,8,0,75,76,5,27,0,0,76,
+        77,3,2,1,0,77,78,5,27,0,0,78,79,6,4,-1,0,79,9,1,0,0,0,80,81,5,26,
+        0,0,81,82,5,4,0,0,82,83,3,2,1,0,83,85,3,2,1,0,84,86,3,2,1,0,85,84,
+        1,0,0,0,85,86,1,0,0,0,86,87,1,0,0,0,87,88,5,27,0,0,88,89,6,5,-1,
+        0,89,101,1,0,0,0,90,91,5,26,0,0,91,93,5,5,0,0,92,94,3,12,6,0,93,
+        92,1,0,0,0,94,95,1,0,0,0,95,93,1,0,0,0,95,96,1,0,0,0,96,97,1,0,0,
+        0,97,98,5,27,0,0,98,99,6,5,-1,0,99,101,1,0,0,0,100,80,1,0,0,0,100,
+        90,1,0,0,0,101,11,1,0,0,0,102,103,5,26,0,0,103,104,3,2,1,0,104,105,
+        3,2,1,0,105,106,5,27,0,0,106,107,6,6,-1,0,107,13,1,0,0,0,108,109,
+        5,26,0,0,109,110,5,11,0,0,110,114,3,2,1,0,111,113,3,2,1,0,112,111,
+        1,0,0,0,113,116,1,0,0,0,114,112,1,0,0,0,114,115,1,0,0,0,115,117,
+        1,0,0,0,116,114,1,0,0,0,117,118,5,27,0,0,118,119,6,7,-1,0,119,15,
+        1,0,0,0,120,122,5,16,0,0,121,120,1,0,0,0,122,125,1,0,0,0,123,121,
+        1,0,0,0,123,124,1,0,0,0,124,126,1,0,0,0,125,123,1,0,0,0,126,127,
+        6,8,-1,0,127,17,1,0,0,0,9,21,48,55,66,85,95,100,114,123
     ]
 
 class LispParser ( Parser ):
@@ -71,33 +65,30 @@ class LispParser ( Parser ):
 
     literalNames = [ "<INVALID>", "<INVALID>", "<INVALID>", "'defun'", "'if'", 
                      "'cond'", "'let'", "'quote'", "'print'", "'defparameter'", 
-                     "'lambda'", "'format'", "'and'", "'or'", "'not'", "<INVALID>", 
-                     "'+'", "'-'", "'/'", "'%'", "'>='", "'<='", "'>'", 
-                     "'<'", "'='", "'('", "')'", "'true'", "'false'", "<INVALID>", 
-                     "<INVALID>", "<INVALID>", "'*'" ]
+                     "'lambda'", "'format'", "'and'", "'or'", "'not'", "'else'", 
+                     "<INVALID>", "'+'", "'-'", "'/'", "'%'", "'>='", "'<='", 
+                     "'>'", "'<'", "'='", "'('", "')'", "'true'", "'false'", 
+                     "<INVALID>", "<INVALID>", "<INVALID>", "'*'" ]
 
     symbolicNames = [ "<INVALID>", "STRING", "NUMBER", "DEFUN", "IF", "COND", 
                       "LET", "QUOTE", "PRINT", "DEFPARAMETER", "LAMBDA", 
-                      "FORMAT", "AND", "OR", "NOT", "IDENTIFIER", "PLUS", 
-                      "MINUS", "DIV", "MOD", "GREATER_EQUAL", "LESS_EQUAL", 
+                      "FORMAT", "AND", "OR", "NOT", "ELSE", "IDENTIFIER", 
+                      "PLUS", "MINUS", "DIV", "MOD", "GREATER_EQUAL", "LESS_EQUAL", 
                       "GREATER", "LESS", "EQUAL", "LPAREN", "RPAREN", "TRUE", 
                       "FALSE", "COMMENT", "WS", "ERROR", "MULT" ]
 
     RULE_program = 0
-    RULE_defparameter = 1
-    RULE_defun = 2
-    RULE_params = 3
-    RULE_body = 4
-    RULE_expression = 5
-    RULE_lambda = 6
-    RULE_funcall = 7
-    RULE_operation = 8
-    RULE_conditional = 9
-    RULE_formatCall = 10
+    RULE_expression = 1
+    RULE_funcall = 2
+    RULE_operation = 3
+    RULE_lambda = 4
+    RULE_conditional = 5
+    RULE_condClause = 6
+    RULE_formatCall = 7
+    RULE_params = 8
 
-    ruleNames =  [ "program", "defparameter", "defun", "params", "body", 
-                   "expression", "lambda", "funcall", "operation", "conditional", 
-                   "formatCall" ]
+    ruleNames =  [ "program", "expression", "funcall", "operation", "lambda", 
+                   "conditional", "condClause", "formatCall", "params" ]
 
     EOF = Token.EOF
     STRING=1
@@ -114,24 +105,25 @@ class LispParser ( Parser ):
     AND=12
     OR=13
     NOT=14
-    IDENTIFIER=15
-    PLUS=16
-    MINUS=17
-    DIV=18
-    MOD=19
-    GREATER_EQUAL=20
-    LESS_EQUAL=21
-    GREATER=22
-    LESS=23
-    EQUAL=24
-    LPAREN=25
-    RPAREN=26
-    TRUE=27
-    FALSE=28
-    COMMENT=29
-    WS=30
-    ERROR=31
-    MULT=32
+    ELSE=15
+    IDENTIFIER=16
+    PLUS=17
+    MINUS=18
+    DIV=19
+    MOD=20
+    GREATER_EQUAL=21
+    LESS_EQUAL=22
+    GREATER=23
+    LESS=24
+    EQUAL=25
+    LPAREN=26
+    RPAREN=27
+    TRUE=28
+    FALSE=29
+    COMMENT=30
+    WS=31
+    ERROR=32
+    MULT=33
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -141,6 +133,15 @@ class LispParser ( Parser ):
 
 
 
+      from ASTNodes import *
+
+      def build_program(self, expressions):
+          program = ProgramNode()
+          for expr in expressions:
+              program.add_child(expr)
+          return program
+
+
 
     class ProgramContext(ParserRuleContext):
         __slots__ = 'parser'
@@ -148,6 +149,9 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self._expression = None # ExpressionContext
+            self.exprs = list() # of ExpressionContexts
 
         def EOF(self):
             return self.getToken(LispParser.EOF, 0)
@@ -157,20 +161,6 @@ class LispParser ( Parser ):
                 return self.getTypedRuleContexts(LispParser.ExpressionContext)
             else:
                 return self.getTypedRuleContext(LispParser.ExpressionContext,i)
-
-
-        def defparameter(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(LispParser.DefparameterContext)
-            else:
-                return self.getTypedRuleContext(LispParser.DefparameterContext,i)
-
-
-        def defun(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(LispParser.DefunContext)
-            else:
-                return self.getTypedRuleContext(LispParser.DefunContext,i)
 
 
         def getRuleIndex(self):
@@ -194,296 +184,20 @@ class LispParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 27
+            self.state = 21
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                self.state = 25
-                self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,0,self._ctx)
-                if la_ == 1:
-                    self.state = 22
-                    self.expression()
-                    pass
-
-                elif la_ == 2:
-                    self.state = 23
-                    self.defparameter()
-                    pass
-
-                elif la_ == 3:
-                    self.state = 24
-                    self.defun()
-                    pass
-
-
-                self.state = 29
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 67174406) != 0):
+                self.state = 18
+                localctx._expression = self.expression()
+                localctx.exprs.append(localctx._expression)
+                self.state = 23
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 30
+            self.state = 24
             self.match(LispParser.EOF)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class DefparameterContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def LPAREN(self):
-            return self.getToken(LispParser.LPAREN, 0)
-
-        def DEFPARAMETER(self):
-            return self.getToken(LispParser.DEFPARAMETER, 0)
-
-        def IDENTIFIER(self):
-            return self.getToken(LispParser.IDENTIFIER, 0)
-
-        def expression(self):
-            return self.getTypedRuleContext(LispParser.ExpressionContext,0)
-
-
-        def RPAREN(self):
-            return self.getToken(LispParser.RPAREN, 0)
-
-        def getRuleIndex(self):
-            return LispParser.RULE_defparameter
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterDefparameter" ):
-                listener.enterDefparameter(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitDefparameter" ):
-                listener.exitDefparameter(self)
-
-
-
-
-    def defparameter(self):
-
-        localctx = LispParser.DefparameterContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 2, self.RULE_defparameter)
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 32
-            self.match(LispParser.LPAREN)
-            self.state = 33
-            self.match(LispParser.DEFPARAMETER)
-            self.state = 34
-            self.match(LispParser.IDENTIFIER)
-            self.state = 35
-            self.expression()
-            self.state = 36
-            self.match(LispParser.RPAREN)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class DefunContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def LPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.LPAREN)
-            else:
-                return self.getToken(LispParser.LPAREN, i)
-
-        def DEFUN(self):
-            return self.getToken(LispParser.DEFUN, 0)
-
-        def IDENTIFIER(self):
-            return self.getToken(LispParser.IDENTIFIER, 0)
-
-        def RPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.RPAREN)
-            else:
-                return self.getToken(LispParser.RPAREN, i)
-
-        def STRING(self):
-            return self.getToken(LispParser.STRING, 0)
-
-        def body(self):
-            return self.getTypedRuleContext(LispParser.BodyContext,0)
-
-
-        def params(self):
-            return self.getTypedRuleContext(LispParser.ParamsContext,0)
-
-
-        def getRuleIndex(self):
-            return LispParser.RULE_defun
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterDefun" ):
-                listener.enterDefun(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitDefun" ):
-                listener.exitDefun(self)
-
-
-
-
-    def defun(self):
-
-        localctx = LispParser.DefunContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 4, self.RULE_defun)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 38
-            self.match(LispParser.LPAREN)
-            self.state = 39
-            self.match(LispParser.DEFUN)
-            self.state = 40
-            self.match(LispParser.IDENTIFIER)
-            self.state = 41
-            self.match(LispParser.LPAREN)
-            self.state = 43
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if _la==15:
-                self.state = 42
-                self.params()
-
-
-            self.state = 45
-            self.match(LispParser.RPAREN)
-            self.state = 46
-            self.match(LispParser.STRING)
-            self.state = 47
-            self.body()
-            self.state = 48
-            self.match(LispParser.RPAREN)
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class ParamsContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def IDENTIFIER(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.IDENTIFIER)
-            else:
-                return self.getToken(LispParser.IDENTIFIER, i)
-
-        def getRuleIndex(self):
-            return LispParser.RULE_params
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterParams" ):
-                listener.enterParams(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitParams" ):
-                listener.exitParams(self)
-
-
-
-
-    def params(self):
-
-        localctx = LispParser.ParamsContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 6, self.RULE_params)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 50
-            self.match(LispParser.IDENTIFIER)
-            self.state = 54
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while _la==15:
-                self.state = 51
-                self.match(LispParser.IDENTIFIER)
-                self.state = 56
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class BodyContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def expression(self, i:int=None):
-            if i is None:
-                return self.getTypedRuleContexts(LispParser.ExpressionContext)
-            else:
-                return self.getTypedRuleContext(LispParser.ExpressionContext,i)
-
-
-        def getRuleIndex(self):
-            return LispParser.RULE_body
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterBody" ):
-                listener.enterBody(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitBody" ):
-                listener.exitBody(self)
-
-
-
-
-    def body(self):
-
-        localctx = LispParser.BodyContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 8, self.RULE_body)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 60
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                self.state = 57
-                self.expression()
-                self.state = 62
-                self._errHandler.sync(self)
-                _la = self._input.LA(1)
-
+             localctx.node =  self.build_program(localctx.exprs) 
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -499,6 +213,15 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self._STRING = None # Token
+            self._NUMBER = None # Token
+            self._IDENTIFIER = None # Token
+            self._lambda = None # LambdaContext
+            self._funcall = None # FuncallContext
+            self._conditional = None # ConditionalContext
+            self._operation = None # OperationContext
+            self._formatCall = None # FormatCallContext
 
         def STRING(self):
             return self.getToken(LispParser.STRING, 0)
@@ -546,140 +269,68 @@ class LispParser ( Parser ):
     def expression(self):
 
         localctx = LispParser.ExpressionContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 10, self.RULE_expression)
+        self.enterRule(localctx, 2, self.RULE_expression)
         try:
-            self.state = 71
+            self.state = 48
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,1,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 63
-                self.match(LispParser.STRING)
+                self.state = 27
+                localctx._STRING = self.match(LispParser.STRING)
+                 localctx.node =  LiteralNode((None if localctx._STRING is None else localctx._STRING.text)) 
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 64
-                self.match(LispParser.NUMBER)
+                self.state = 29
+                localctx._NUMBER = self.match(LispParser.NUMBER)
+                 localctx.node =  LiteralNode((None if localctx._NUMBER is None else localctx._NUMBER.text)) 
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 65
-                self.match(LispParser.IDENTIFIER)
+                self.state = 31
+                localctx._IDENTIFIER = self.match(LispParser.IDENTIFIER)
+                 localctx.node =  IdentifierNode((None if localctx._IDENTIFIER is None else localctx._IDENTIFIER.text)) 
                 pass
 
             elif la_ == 4:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 66
-                self.lambda_()
+                self.state = 33
+                localctx._lambda = self.lambda_()
+                 localctx.node =  localctx._lambda.node 
                 pass
 
             elif la_ == 5:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 67
-                self.funcall()
+                self.state = 36
+                localctx._funcall = self.funcall()
+                 localctx.node =  localctx._funcall.node 
                 pass
 
             elif la_ == 6:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 68
-                self.conditional()
+                self.state = 39
+                localctx._conditional = self.conditional()
+                 localctx.node =  localctx._conditional.node 
                 pass
 
             elif la_ == 7:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 69
-                self.operation()
+                self.state = 42
+                localctx._operation = self.operation()
+                 localctx.node =  localctx._operation.node 
                 pass
 
             elif la_ == 8:
                 self.enterOuterAlt(localctx, 8)
-                self.state = 70
-                self.formatCall()
+                self.state = 45
+                localctx._formatCall = self.formatCall()
+                 localctx.node =  localctx._formatCall.node 
                 pass
 
 
-        except RecognitionException as re:
-            localctx.exception = re
-            self._errHandler.reportError(self, re)
-            self._errHandler.recover(self, re)
-        finally:
-            self.exitRule()
-        return localctx
-
-
-    class LambdaContext(ParserRuleContext):
-        __slots__ = 'parser'
-
-        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
-            super().__init__(parent, invokingState)
-            self.parser = parser
-
-        def LPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.LPAREN)
-            else:
-                return self.getToken(LispParser.LPAREN, i)
-
-        def LAMBDA(self):
-            return self.getToken(LispParser.LAMBDA, 0)
-
-        def RPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.RPAREN)
-            else:
-                return self.getToken(LispParser.RPAREN, i)
-
-        def expression(self):
-            return self.getTypedRuleContext(LispParser.ExpressionContext,0)
-
-
-        def params(self):
-            return self.getTypedRuleContext(LispParser.ParamsContext,0)
-
-
-        def getRuleIndex(self):
-            return LispParser.RULE_lambda
-
-        def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterLambda" ):
-                listener.enterLambda(self)
-
-        def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitLambda" ):
-                listener.exitLambda(self)
-
-
-
-
-    def lambda_(self):
-
-        localctx = LispParser.LambdaContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 12, self.RULE_lambda)
-        self._la = 0 # Token type
-        try:
-            self.enterOuterAlt(localctx, 1)
-            self.state = 73
-            self.match(LispParser.LPAREN)
-            self.state = 74
-            self.match(LispParser.LAMBDA)
-            self.state = 75
-            self.match(LispParser.LPAREN)
-            self.state = 77
-            self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if _la==15:
-                self.state = 76
-                self.params()
-
-
-            self.state = 79
-            self.match(LispParser.RPAREN)
-            self.state = 80
-            self.expression()
-            self.state = 81
-            self.match(LispParser.RPAREN)
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -695,6 +346,10 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self._IDENTIFIER = None # Token
+            self._expression = None # ExpressionContext
+            self.exprs = list() # of ExpressionContexts
 
         def LPAREN(self):
             return self.getToken(LispParser.LPAREN, 0)
@@ -729,26 +384,33 @@ class LispParser ( Parser ):
     def funcall(self):
 
         localctx = LispParser.FuncallContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 14, self.RULE_funcall)
+        self.enterRule(localctx, 4, self.RULE_funcall)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 83
+            self.state = 50
             self.match(LispParser.LPAREN)
-            self.state = 84
-            self.match(LispParser.IDENTIFIER)
-            self.state = 88
+            self.state = 51
+            localctx._IDENTIFIER = self.match(LispParser.IDENTIFIER)
+            self.state = 55
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                self.state = 85
-                self.expression()
-                self.state = 90
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 67174406) != 0):
+                self.state = 52
+                localctx._expression = self.expression()
+                localctx.exprs.append(localctx._expression)
+                self.state = 57
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 91
+            self.state = 58
             self.match(LispParser.RPAREN)
+
+                    func = FunctionCallNode((None if localctx._IDENTIFIER is None else localctx._IDENTIFIER.text))
+                    for expr in localctx.exprs:
+                        func.add_child(expr)
+                    localctx.node =  func
+                
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -764,6 +426,10 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self.op = None # Token
+            self._expression = None # ExpressionContext
+            self.exprs = list() # of ExpressionContexts
 
         def LPAREN(self):
             return self.getToken(LispParser.LPAREN, 0)
@@ -831,33 +497,124 @@ class LispParser ( Parser ):
     def operation(self):
 
         localctx = LispParser.OperationContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 16, self.RULE_operation)
+        self.enterRule(localctx, 6, self.RULE_operation)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 93
+            self.state = 61
             self.match(LispParser.LPAREN)
-            self.state = 94
+            self.state = 62
+            localctx.op = self._input.LT(1)
             _la = self._input.LA(1)
-            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 4328468480) != 0)):
-                self._errHandler.recoverInline(self)
+            if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 8656924672) != 0)):
+                localctx.op = self._errHandler.recoverInline(self)
             else:
                 self._errHandler.reportMatch(self)
                 self.consume()
-            self.state = 96 
+            self.state = 64 
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while True:
-                self.state = 95
-                self.expression()
-                self.state = 98 
+                self.state = 63
+                localctx._expression = self.expression()
+                localctx.exprs.append(localctx._expression)
+                self.state = 66 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0)):
+                if not ((((_la) & ~0x3f) == 0 and ((1 << _la) & 67174406) != 0)):
                     break
 
-            self.state = 100
+            self.state = 68
             self.match(LispParser.RPAREN)
+
+                    operation = OperationNode((None if localctx.op is None else localctx.op.text))
+                    for expr in localctx.exprs:
+                        operation.add_child(expr)
+                    localctx.node =  operation
+                
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class LambdaContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+            self.node = None
+            self._params = None # ParamsContext
+            self._expression = None # ExpressionContext
+
+        def LPAREN(self, i:int=None):
+            if i is None:
+                return self.getTokens(LispParser.LPAREN)
+            else:
+                return self.getToken(LispParser.LPAREN, i)
+
+        def LAMBDA(self):
+            return self.getToken(LispParser.LAMBDA, 0)
+
+        def params(self):
+            return self.getTypedRuleContext(LispParser.ParamsContext,0)
+
+
+        def RPAREN(self, i:int=None):
+            if i is None:
+                return self.getTokens(LispParser.RPAREN)
+            else:
+                return self.getToken(LispParser.RPAREN, i)
+
+        def expression(self):
+            return self.getTypedRuleContext(LispParser.ExpressionContext,0)
+
+
+        def getRuleIndex(self):
+            return LispParser.RULE_lambda
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterLambda" ):
+                listener.enterLambda(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitLambda" ):
+                listener.exitLambda(self)
+
+
+
+
+    def lambda_(self):
+
+        localctx = LispParser.LambdaContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 8, self.RULE_lambda)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 71
+            self.match(LispParser.LPAREN)
+            self.state = 72
+            self.match(LispParser.LAMBDA)
+            self.state = 73
+            self.match(LispParser.LPAREN)
+            self.state = 74
+            localctx._params = self.params()
+            self.state = 75
+            self.match(LispParser.RPAREN)
+            self.state = 76
+            localctx._expression = self.expression()
+            self.state = 77
+            self.match(LispParser.RPAREN)
+
+                    lambda_node = LambdaNode()
+                    if localctx._params.node:
+                        lambda_node.add_child(localctx._params.node)
+                    lambda_node.add_child(localctx._expression.node)
+                    localctx.node =  lambda_node
+                
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -873,15 +630,21 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self.test = None # ExpressionContext
+            self.then = None # ExpressionContext
+            self.else_ = None # ExpressionContext
+            self._condClause = None # CondClauseContext
+            self.clauses = list() # of CondClauseContexts
 
-        def LPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.LPAREN)
-            else:
-                return self.getToken(LispParser.LPAREN, i)
+        def LPAREN(self):
+            return self.getToken(LispParser.LPAREN, 0)
 
         def IF(self):
             return self.getToken(LispParser.IF, 0)
+
+        def RPAREN(self):
+            return self.getToken(LispParser.RPAREN, 0)
 
         def expression(self, i:int=None):
             if i is None:
@@ -890,14 +653,15 @@ class LispParser ( Parser ):
                 return self.getTypedRuleContext(LispParser.ExpressionContext,i)
 
 
-        def RPAREN(self, i:int=None):
-            if i is None:
-                return self.getTokens(LispParser.RPAREN)
-            else:
-                return self.getToken(LispParser.RPAREN, i)
-
         def COND(self):
             return self.getToken(LispParser.COND, 0)
+
+        def condClause(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(LispParser.CondClauseContext)
+            else:
+                return self.getTypedRuleContext(LispParser.CondClauseContext,i)
+
 
         def getRuleIndex(self):
             return LispParser.RULE_conditional
@@ -916,65 +680,139 @@ class LispParser ( Parser ):
     def conditional(self):
 
         localctx = LispParser.ConditionalContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 18, self.RULE_conditional)
+        self.enterRule(localctx, 10, self.RULE_conditional)
         self._la = 0 # Token type
         try:
-            self.state = 127
+            self.state = 100
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 102
+                self.state = 80
                 self.match(LispParser.LPAREN)
-                self.state = 103
+                self.state = 81
                 self.match(LispParser.IF)
-                self.state = 104
-                self.expression()
-                self.state = 105
-                self.expression()
-                self.state = 109
+                self.state = 82
+                localctx.test = self.expression()
+                self.state = 83
+                localctx.then = self.expression()
+                self.state = 85
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                    self.state = 106
-                    self.expression()
-                    self.state = 111
-                    self._errHandler.sync(self)
-                    _la = self._input.LA(1)
+                if (((_la) & ~0x3f) == 0 and ((1 << _la) & 67174406) != 0):
+                    self.state = 84
+                    localctx.else_ = self.expression()
 
-                self.state = 112
+
+                self.state = 87
                 self.match(LispParser.RPAREN)
+
+                        conditional_node = ConditionalNode("if")
+                        conditional_node.add_child(localctx.test.node)
+                        conditional_node.add_child(localctx.then.node)
+                        if (localctx.else_.node != null) {
+                            conditional_node.add_child(localctx.else_.node);
+                        }
+                        localctx.node =  conditional_node
+                    
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 114
+                self.state = 90
                 self.match(LispParser.LPAREN)
-                self.state = 115
+                self.state = 91
                 self.match(LispParser.COND)
-                self.state = 121 
+                self.state = 93 
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while True:
-                    self.state = 116
-                    self.match(LispParser.LPAREN)
-                    self.state = 117
-                    self.expression()
-                    self.state = 118
-                    self.expression()
-                    self.state = 119
-                    self.match(LispParser.RPAREN)
-                    self.state = 123 
+                    self.state = 92
+                    localctx._condClause = self.condClause()
+                    localctx.clauses.append(localctx._condClause)
+                    self.state = 95 
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
-                    if not (_la==25):
+                    if not (_la==26):
                         break
 
-                self.state = 125
+                self.state = 97
                 self.match(LispParser.RPAREN)
+
+                        cond_node = ConditionalNode("cond")
+                        for clause in localctx.clauses:
+                            cond_node.add_child(clause.node)
+                        localctx.node =  cond_node
+                    
                 pass
 
 
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class CondClauseContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+            self.node = None
+            self.test = None # ExpressionContext
+            self.result = None # ExpressionContext
+
+        def LPAREN(self):
+            return self.getToken(LispParser.LPAREN, 0)
+
+        def RPAREN(self):
+            return self.getToken(LispParser.RPAREN, 0)
+
+        def expression(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(LispParser.ExpressionContext)
+            else:
+                return self.getTypedRuleContext(LispParser.ExpressionContext,i)
+
+
+        def getRuleIndex(self):
+            return LispParser.RULE_condClause
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterCondClause" ):
+                listener.enterCondClause(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitCondClause" ):
+                listener.exitCondClause(self)
+
+
+
+
+    def condClause(self):
+
+        localctx = LispParser.CondClauseContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 12, self.RULE_condClause)
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 102
+            self.match(LispParser.LPAREN)
+            self.state = 103
+            localctx.test = self.expression()
+            self.state = 104
+            localctx.result = self.expression()
+            self.state = 105
+            self.match(LispParser.RPAREN)
+
+                    clause_node = CondClauseNode()
+                    clause_node.add_child(localctx.test.node)
+                    clause_node.add_child(localctx.result.node)
+                    localctx.node =  clause_node
+                
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -990,6 +828,10 @@ class LispParser ( Parser ):
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
             self.parser = parser
+            self.node = None
+            self.format_string = None # ExpressionContext
+            self._expression = None # ExpressionContext
+            self.args = list() # of ExpressionContexts
 
         def LPAREN(self):
             return self.getToken(LispParser.LPAREN, 0)
@@ -997,15 +839,15 @@ class LispParser ( Parser ):
         def FORMAT(self):
             return self.getToken(LispParser.FORMAT, 0)
 
+        def RPAREN(self):
+            return self.getToken(LispParser.RPAREN, 0)
+
         def expression(self, i:int=None):
             if i is None:
                 return self.getTypedRuleContexts(LispParser.ExpressionContext)
             else:
                 return self.getTypedRuleContext(LispParser.ExpressionContext,i)
 
-
-        def RPAREN(self):
-            return self.getToken(LispParser.RPAREN, 0)
 
         def getRuleIndex(self):
             return LispParser.RULE_formatCall
@@ -1024,28 +866,99 @@ class LispParser ( Parser ):
     def formatCall(self):
 
         localctx = LispParser.FormatCallContext(self, self._ctx, self.state)
-        self.enterRule(localctx, 20, self.RULE_formatCall)
+        self.enterRule(localctx, 14, self.RULE_formatCall)
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 129
+            self.state = 108
             self.match(LispParser.LPAREN)
-            self.state = 130
+            self.state = 109
             self.match(LispParser.FORMAT)
-            self.state = 131
-            self.expression()
-            self.state = 135
+            self.state = 110
+            localctx.format_string = self.expression()
+            self.state = 114
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 33587206) != 0):
-                self.state = 132
-                self.expression()
-                self.state = 137
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & 67174406) != 0):
+                self.state = 111
+                localctx._expression = self.expression()
+                localctx.args.append(localctx._expression)
+                self.state = 116
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 138
+            self.state = 117
             self.match(LispParser.RPAREN)
+
+                    format_node = FormatCallNode()
+                    format_node.add_child(localctx.format_string.node)
+                    for arg in localctx.args:
+                        format_node.add_child(arg.node)  // Ensure access to `node`
+                    localctx.node =  format_node
+                
+        except RecognitionException as re:
+            localctx.exception = re
+            self._errHandler.reportError(self, re)
+            self._errHandler.recover(self, re)
+        finally:
+            self.exitRule()
+        return localctx
+
+
+    class ParamsContext(ParserRuleContext):
+        __slots__ = 'parser'
+
+        def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
+            super().__init__(parent, invokingState)
+            self.parser = parser
+            self.node = None
+            self._IDENTIFIER = None # Token
+            self.ids = list() # of Tokens
+
+        def IDENTIFIER(self, i:int=None):
+            if i is None:
+                return self.getTokens(LispParser.IDENTIFIER)
+            else:
+                return self.getToken(LispParser.IDENTIFIER, i)
+
+        def getRuleIndex(self):
+            return LispParser.RULE_params
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterParams" ):
+                listener.enterParams(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitParams" ):
+                listener.exitParams(self)
+
+
+
+
+    def params(self):
+
+        localctx = LispParser.ParamsContext(self, self._ctx, self.state)
+        self.enterRule(localctx, 16, self.RULE_params)
+        self._la = 0 # Token type
+        try:
+            self.enterOuterAlt(localctx, 1)
+            self.state = 123
+            self._errHandler.sync(self)
+            _la = self._input.LA(1)
+            while _la==16:
+                self.state = 120
+                localctx._IDENTIFIER = self.match(LispParser.IDENTIFIER)
+                localctx.ids.append(localctx._IDENTIFIER)
+                self.state = 125
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+
+
+                    params_node = ParameterListNode()
+                    for id in localctx.ids:
+                        params_node.add_child(IdentifierNode(id.text))
+                    localctx.node =  params_node
+                
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)

@@ -17,57 +17,12 @@ class LispParserListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by LispParser#defparameter.
-    def enterDefparameter(self, ctx:LispParser.DefparameterContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#defparameter.
-    def exitDefparameter(self, ctx:LispParser.DefparameterContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParser#defun.
-    def enterDefun(self, ctx:LispParser.DefunContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#defun.
-    def exitDefun(self, ctx:LispParser.DefunContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParser#params.
-    def enterParams(self, ctx:LispParser.ParamsContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#params.
-    def exitParams(self, ctx:LispParser.ParamsContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParser#body.
-    def enterBody(self, ctx:LispParser.BodyContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#body.
-    def exitBody(self, ctx:LispParser.BodyContext):
-        pass
-
-
     # Enter a parse tree produced by LispParser#expression.
     def enterExpression(self, ctx:LispParser.ExpressionContext):
         pass
 
     # Exit a parse tree produced by LispParser#expression.
     def exitExpression(self, ctx:LispParser.ExpressionContext):
-        pass
-
-
-    # Enter a parse tree produced by LispParser#lambda.
-    def enterLambda(self, ctx:LispParser.LambdaContext):
-        pass
-
-    # Exit a parse tree produced by LispParser#lambda.
-    def exitLambda(self, ctx:LispParser.LambdaContext):
         pass
 
 
@@ -89,6 +44,15 @@ class LispParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by LispParser#lambda.
+    def enterLambda(self, ctx:LispParser.LambdaContext):
+        pass
+
+    # Exit a parse tree produced by LispParser#lambda.
+    def exitLambda(self, ctx:LispParser.LambdaContext):
+        pass
+
+
     # Enter a parse tree produced by LispParser#conditional.
     def enterConditional(self, ctx:LispParser.ConditionalContext):
         pass
@@ -98,12 +62,30 @@ class LispParserListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by LispParser#condClause.
+    def enterCondClause(self, ctx:LispParser.CondClauseContext):
+        pass
+
+    # Exit a parse tree produced by LispParser#condClause.
+    def exitCondClause(self, ctx:LispParser.CondClauseContext):
+        pass
+
+
     # Enter a parse tree produced by LispParser#formatCall.
     def enterFormatCall(self, ctx:LispParser.FormatCallContext):
         pass
 
     # Exit a parse tree produced by LispParser#formatCall.
     def exitFormatCall(self, ctx:LispParser.FormatCallContext):
+        pass
+
+
+    # Enter a parse tree produced by LispParser#params.
+    def enterParams(self, ctx:LispParser.ParamsContext):
+        pass
+
+    # Exit a parse tree produced by LispParser#params.
+    def exitParams(self, ctx:LispParser.ParamsContext):
         pass
 
 
